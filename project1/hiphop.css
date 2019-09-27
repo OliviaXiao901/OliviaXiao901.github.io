@@ -18,3 +18,73 @@ nav {
   width: 60%;
   height: 50px;
 }
+
+.link {
+  width: 22%;
+  margin-left: 2.5%;
+  height: 80%;
+  float: left;
+  color: black;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
+  font-family:sans-serif;
+  letter-spacing: 8px;
+  font-weight: bold;
+}
+
+.bar{
+  width: 300px;
+  margin-left: 2.5%;
+  margin-top: 300px;
+  height: 200px;
+  float: left;
+}
+
+.card{
+  width: 300px;
+  height: 25%
+  margin-left: 2.5%;
+  height: 80%;
+  float: left;
+}
+
+#card{
+  position: absolute;
+  height: 100px;
+  width: 250px;
+}
+
+.container{
+  width: 65%;
+  height: 1500px;
+  margin-left: 430px;
+  margin-top: 200px;
+  background-color: red;
+}
+
+.column{
+  width: 30%;
+  height: 1500px;
+  margin: 1.5%;
+  background-color: blue;
+  float: left;
+}
+
+.pic{
+  width: 800px;
+  height: 500px;
+}
+
+#image{
+  width: 800px;
+  margin-left: 50px;
+}
+
+#next{
+  float: right;
+  margin-top: 30px;
+  font-family: sans-serif;
+  letter-spacing: 8px;
+  font-weight: bold;
+}
