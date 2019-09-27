@@ -1,0 +1,20 @@
+#logopic{
+  width:230px;
+  height:230px;
+}
+
+.logo{
+  position: absolute;
+  left: 50px;
+  top: 25px;
+  height: 230px;
+  width: 230px;
+}
+
+nav {
+  position: absolute;
+  top: 50px;
+  right:15px;
+  width: 60%;
+  height: 50px;
+}
