@@ -1,0 +1,30 @@
+.container{
+  margin: auto;
+  position: relative;
+  width:1000px;
+  padding-top: 220px;
+}
+
+#logopic{
+  width:230px;
+  height:230px;
+}
+
+.logo{
+  position: absolute;
+  left: 50px;
+  top: 25px;
+  height: 230px;
+  width: 230px;
+}
+
+#card{
+  width:450px;
+  height:150px;
+}
+
+.title {
+  width:450px;
+  margin:25px;
+  float:left;
+}

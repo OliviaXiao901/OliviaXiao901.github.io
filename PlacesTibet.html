@@ -1,0 +1,103 @@
+<!DOCTYPE.html>
+<html>
+  <head>
+    <title> PlacesTibet </title>
+    <link rel="stylesheet" href="places.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <a href="mainpage.html">
+          <img id="logopic" src="mainpagepic/logo.png">
+        </a>
+      </div>
+
+    <nav>
+      <a href="PlacesTibet.html">
+        <div class="link">
+          PLACES
+        </div>
+      </a>
+
+      <a href="PlacesTibet.html">
+        <div class="link">
+          HIP HOP
+        </div>
+      </a>
+
+      <a href="PlacesTibet.html">
+        <div class="link">
+          FILMS
+        </div>
+      </a>
+
+      <a href="PlacesTibet.html">
+        <div class="link">
+          LIFE
+        </div>
+      </a>
+    </nav>
+  </head>
+
+  <div class="bar">
+    <div class="card">
+      <a href="PlacesTibet.html">
+        <img id="card" src="mainpagepic/tibet.png">
+      </a>
+    </div>
+
+    <div class="card">
+      <a href="PlacesRussia.html">
+      <img id="card" src="mainpagepic/russia.png">
+    </a>
+    </div>
+
+    <div class="card">
+      <a href="PlacesShanghai.html">
+      <img id="card" src="mainpagepic/shanghai.png">
+    </a>
+    </div>
+
+  </div>
+
+  <div class="container">
+    <div class="pic">
+      <img id="image" src="mainpagepic/tibet/1.jpg" />
+      <div id="next">Next</div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+    <script>
+    $( document ).ready(function() {
+
+      var images = [
+          "mainpagepic/tibet/2.jpg",
+          "mainpagepic/tibet/3.jpg",
+          "mainpagepic/tibet/4.jpg",
+          "mainpagepic/tibet/5.jpg",
+          "mainpagepic/tibet/6.jpg",
+          "mainpagepic/tibet/7.jpg",
+          "mainpagepic/tibet/8.jpg",
+          "mainpagepic/tibet/9.jpg",
+          "mainpagepic/tibet/10.jpg",
+          "mainpagepic/tibet/11.jpg",
+          "mainpagepic/tibet/12.jpg",
+      ];
+      var imageIndex = 0;
+
+      $("#next").on("click", function(){
+          imageIndex = (imageIndex+1) % (images.length);
+          $("#image").attr('src', images[imageIndex]);
+      });
+      $("#image").attr(images[0]);
+  });
+</script>
+
+    </div>
+
+    <div class="explanation">
+
+    </div>
+  </div>
