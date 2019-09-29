@@ -45,7 +45,7 @@ nav {
   width: 300px;
   height: 25%
   margin-left: 2.5%;
-  margin-bottom: 700px;
+  margin-bottom: 600px;
   height: 80%;
   float: left;
 }
@@ -61,7 +61,6 @@ nav {
   height: 1500px;
   margin-left: 430px;
   margin-top: 200px;
-  background-color: red;
 }
 
 .column{
@@ -74,12 +73,4 @@ nav {
 #image{
   width: 100%;
   margin-top: 10%;
-}
-
-#next{
-  float: right;
-  margin-top: 30px;
-  font-family: sans-serif;
-  letter-spacing: 8px;
-  font-weight: bold;
 }
