@@ -68,18 +68,12 @@ nav {
   width: 30%;
   height: 1500px;
   margin: 1.5%;
-  background-color: blue;
   float: left;
 }
 
-.pic{
-  width: 800px;
-  height: 500px;
-}
-
 #image{
-  width: 800px;
-  margin-left: 50px;
+  width: 100%;
+  margin-top: 10%;
 }
 
 #next{
