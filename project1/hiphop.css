@@ -31,7 +31,15 @@ nav {
   font-family:sans-serif;
   letter-spacing: 8px;
   font-weight: bold;
+  transition: transform .2s;
 }
+
+.link:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
+
 
 .bar{
   width: 300px;
@@ -73,4 +81,17 @@ nav {
 #image{
   width: 100%;
   margin-top: 10%;
+  transition: transform .2s;
+}
+
+#image:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+#hover:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }

@@ -4,7 +4,7 @@
 }
 
 .logo{
-  position: absolute;
+  position: relative;
   left: 50px;
   top: 25px;
   height: 230px;
@@ -31,9 +31,17 @@ nav {
   font-family:sans-serif;
   letter-spacing: 8px;
   font-weight: bold;
+  transition: transform .2s;
+}
+
+.link:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
 
 .bar{
+  position: relative;
   width: 300px;
   margin-left: 2.5%;
   margin-top: 50px;
@@ -42,27 +50,36 @@ nav {
 }
 
 .card{
+  position: relative;
   width: 300px;
   height: 25%
   margin-left: 2.5%;
   height: 80%;
   float: left;
+  transition: transform .2s;
+}
+
+.card:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
 
 #card{
-  position: absolute;
+  position: relative;
   height: 100px;
   width: 250px;
 }
 
 .container{
+  position: relative;
   width: 60%;
   height: 1500px;
   margin-left: 450px;
-  margin-top: 200px;
 }
 
 .pic{
+  position: relative;
   width: 800px;
   height: 500px;
 }
@@ -73,9 +90,17 @@ nav {
 }
 
 #next{
+  position: relative;
   float: right;
   margin-top: 30px;
   font-family: sans-serif;
   letter-spacing: 8px;
   font-weight: bold;
+  transition: transform .2s;
+}
+
+#next:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
