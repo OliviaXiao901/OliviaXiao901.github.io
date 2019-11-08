@@ -69,7 +69,7 @@
   padding: 30px;
   display: none;
   width: 100%;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 
@@ -107,5 +107,5 @@
   transition: font-size 2s;
 }
 .question:hover{
-  font-size: 40px;
+  font-size: 35px;
 }
