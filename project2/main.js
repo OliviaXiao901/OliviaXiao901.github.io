@@ -3,9 +3,12 @@ $(document).ready(function(){
   $("#story1").hide();
   $("#story2").hide();
   $("#story3").hide();
+  $("#story4").hide();
+  $("#story5").hide();
   $(".question").hide();
   $(".button").hide();
   $("#narrative2").hide();
+  $("#narrative4").hide();
 
 
   $(".startButton").click(function(){
@@ -61,5 +64,64 @@ $(document).ready(function(){
     $("#story3").show(1000);
     $(".narrative").show(1000);
   });
+
+  $("#card3").click(function(){
+    $("#card3").attr("src", "pic/close3");
+    $("#card").attr("height", "700");
+    $(".narrative").text("Due to her strong powers, only Sun Wukong could detect that she was a demon.");
+    $("#pic3").show(1000);
+    $("#choice5").show(1000);
+    $("#choice6").show(1000);
+  });
+
+  $("#choice5").click(function(){
+    $("#panel3").slideToggle("slow");
+  });
+
+  $("#choice6").click(function(){
+    $("#story3").hide();
+    $(".narrative").text("When Tang was about to eat her food, Monkey King came.");
+    $("#story4").show(1000);
+    $("#pic4").show(1000);
+  });
+
+  $("#card4").click(function(){
+    $("#card4").attr("src", "pic/close4");
+    $("#card").attr("height", "300");
+    $(".narrative").text("Monkey King hit her with his staff, seemingly killing her. ");
+    $("#pic4").text("How will Tang react to this?");
+    $("#choice7").show(1000);
+    $("#choice8").show(1000);
+  });
+
+  $("#choice8").click(function(){
+    $("#panel4").slideToggle("slow");
+  });
+
+  $("#choice7").click(function(){
+    $("#story4").hide();
+    $(".narrative").hide();
+    $("#story5").show(1000);
+    $("#narrative3").show(1000);
+    $("#card5").hide();
+    $("#narrative3").text("But has the White bone demon died? click text to continue.");
+  });
+
+  $(".narrative").click(function(){
+    $("#narrative4").show(1000);
+  });
+
+  $("#narrative4").click(function(){
+    $("#narrative4").text("She returned a second time disguised as an elderly woman.");
+    $("#story5").show(1000);
+    $("pic5").show(1000);
+    $("#choice9").show(1000);
+    $("#choice10").show(1000);
+  });
+
+  $("#choice10").click(function(){
+    $("#panel5").slideToggle("slow");
+  });
+
 
 });
