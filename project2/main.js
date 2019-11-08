@@ -105,9 +105,11 @@ $(document).ready(function(){
     $("#narrative3").show(1000);
     $("#card5").hide();
     $("#narrative3").text("But has the White bone demon died? click text to continue.");
+    $(".story").hide();
   });
 
-  $(".narrative").click(function(){
+  $("#narrative3").click(function(){
+    $("#narrative3").hide();
     $("#narrative4").show(1000);
   });
 
