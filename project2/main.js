@@ -111,12 +111,45 @@ $(document).ready(function(){
   $("#narrative3").click(function(){
     $("#narrative3").hide();
     $("#narrative4").show(1000);
+    $("#narrative4").text(" No. Tang Sanzang believed she was an innocent and buried her. Having survived the attack, the White Bone Demon dug underground to recover. Click on text to continue");
   });
 
   $("#narrative4").click(function(){
     $("#narrative4").text("She returned a second time disguised as an elderly woman.");
     $("#story5").show(1000);
-    $("pic5").show(1000);
+    $(".story").show(1000);
+    $("#pic5").show(1000);
+    $("#card5").show(1000);
+    $("#choice9").show(1000);
+    $("#choice10").show(1000);
+  });
+
+  $("#choice10").click(function(){
+    $("#panel5").slideToggle("slow");
+  });
+
+  $("#choice9").click(function(){
+    $("#story5").hide();
+    $(".narrative").hide();
+    $("#story6").show(1000);
+    $("#narrative5").show(1000);
+    $("#card6").hide();
+    $("#narrative5").text("Do you think Tang Sanzang will believe in Monkey King this time? click text to continue.");
+    $(".story").hide();
+  });
+
+  $("#narrative5").click(function(){
+    $("#narrative5").hide();
+    $("#narrative6").show(1000);
+    $("#narrative6").text(" No. Before the demon was beaten, she lied to the group, causing them to believe that the village girl from earlier was her daughter and the group was angry at what Monkey King did. So after Tang saw the old woman was killed by Monkey King, he harshly punished Monkey King and said if this happens again, Sun will not be able to accompany him. Click on text to continue");
+  });
+
+  $("#narrative6").click(function(){
+    $("#narrative6").text("Finally, the Demon returns again as an elderly man who lies about having a daughter and wife.");
+    $("#story5").show(1000);
+    $(".story").show(1000);
+    $("#pic5").show(1000);
+    $("#card5").show(1000);
     $("#choice9").show(1000);
     $("#choice10").show(1000);
   });
