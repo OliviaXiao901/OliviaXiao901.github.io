@@ -5,6 +5,8 @@ $(document).ready(function(){
   $("#story3").hide();
   $("#story4").hide();
   $("#story5").hide();
+  $("#story6").hide();
+  $("#story7").hide();
   $(".question").hide();
   $(".button").hide();
   $("#narrative2").hide();
@@ -129,6 +131,10 @@ $(document).ready(function(){
   });
 
   $("#choice9").click(function(){
+    $("#card5").hide();
+    $(".question").hide();
+    $(".button").hide();
+    $(".panel").hide();
     $("#story5").hide();
     $(".narrative").hide();
     $("#story6").show(1000);
@@ -148,14 +154,34 @@ $(document).ready(function(){
     $("#narrative6").text("Finally, the Demon returns again as an elderly man who lies about having a daughter and wife.");
     $("#story5").show(1000);
     $(".story").show(1000);
-    $("#pic5").show(1000);
-    $("#card5").show(1000);
-    $("#choice9").show(1000);
-    $("#choice10").show(1000);
+    $("#pic6").show(1000);
+    $("#card6").show(1000);
+    $("#choice11").show(1000);
+    $("#choice12").show(1000);
   });
 
-  $("#choice10").click(function(){
-    $("#panel5").slideToggle("slow");
+  $("#choice12").click(function(){
+    $("#panel6").slideToggle("slow");
+  });
+
+  $("#choice11").click(function(){
+    $("#card6").hide();
+    $(".question").hide();
+    $(".button").hide();
+    $("#story6").hide();
+    $(".narrative").hide();
+    $("#story7").show(1000);
+    $("#narrative7").show(1000);
+    $("#card7").hide();
+    $("#narrative7").text("Tang Sanzang is angry at Sun Wukong at his reckless slaying and scolds him. click text to continue.");
+    $(".story").hide();
+  });
+
+  $("#narrative7").click(function(){
+    $("#narrative7").text("He cuts his ties with Sun Wukong and sends him away.");
+    $("#story7").show(1000);
+    $(".story").show(1000);
+    $("#card7").show(1000);
   });
 
 
